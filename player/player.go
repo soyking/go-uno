@@ -5,7 +5,7 @@ package player
 
 import (
 	"errors"
-	"uno/card"
+	"go-uno/card"
 )
 
 //Player information including game state, waiting opponent and getting your turn

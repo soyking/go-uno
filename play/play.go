@@ -6,11 +6,11 @@ package play
 import (
 	"bufio"
 	"fmt"
+	"go-uno/card"
+	"go-uno/connect"
 	"net"
 	"os"
 	"strconv"
-	"uno/card"
-	"uno/connect"
 )
 
 //Start playing

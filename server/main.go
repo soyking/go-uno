@@ -5,10 +5,10 @@ package main
 
 import (
 	"fmt"
+	"go-uno/handler"
+	"go-uno/player"
 	"net"
 	"os"
-	"uno/handler"
-	"uno/player"
 )
 
 var playerlist *player.PlayerList

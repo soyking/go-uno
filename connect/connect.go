@@ -6,10 +6,10 @@ package connect
 import (
 	"encoding/json"
 	"errors"
+	"go-uno/card"
 	"net"
 	"strconv"
 	"strings"
-	"uno/card"
 )
 
 const MAXTIME = 10 //max times of error

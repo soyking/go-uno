@@ -6,11 +6,11 @@ package handler
 import (
 	"errors"
 	"fmt"
+	"go-uno/card"
+	"go-uno/connect"
+	"go-uno/player"
 	"net"
 	"strconv"
-	"uno/card"
-	"uno/connect"
-	"uno/player"
 )
 
 const INITCARD = 7 //the number of cards that you should get first

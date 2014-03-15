@@ -6,9 +6,9 @@ package main
 import (
 	"errors"
 	"fmt"
+	"go-uno/play"
 	"net"
 	"os"
-	"uno/play"
 )
 
 //Checking err in connecting loop
