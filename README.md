@@ -11,5 +11,3 @@ go-uno
 
 4 没有时间限制，不出牌也不会中止游戏
 
-### Installing go-uno
-    go get github.com/soyking/go-uno
