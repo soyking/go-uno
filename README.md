@@ -11,3 +11,6 @@ go-uno
 
 4 没有时间限制，不出牌也不会中止游戏
 
+服务器：server/main.go
+客户端：client/main.go
+
