@@ -174,11 +174,11 @@ func (gs *GameState) UpdateState() int {
 }
 
 //Get information after your opponent put out one card
-func (gs *GameState) Reset(opstate GameState) {
-	gs.Uno = opstate.Uno
-	gs.LastCard = opstate.LastCard
-	gs.Penalty = opstate.Penalty
-	gs.Skip = opstate.Skip
+func (gs *GameState) Reset(opcardinfo GameState) {
+	gs.Uno = opcardinfo.Uno
+	gs.LastCard = opcardinfo.LastCard
+	gs.Penalty = opcardinfo.Penalty
+	gs.Skip = opcardinfo.Skip
 }
 
 //Delete a card you put out
